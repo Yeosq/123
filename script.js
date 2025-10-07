@@ -1,5 +1,5 @@
-const SUPABASE_URL = "https://YOURPROJECT.supabase.co";
-const SUPABASE_KEY = "YOUR_ANON_KEY";
+const SUPABASE_URL = "https://vouvasmrwfbealsodbmk.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZvdXZhc21yd2ZiZWFsc29kYm1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk3MDk3MjcsImV4cCI6MjA3NTI4NTcyN30.8QX9om9jG3_DKrnnKydtmBBmoUIryM2SXhWuvGmkHKg";
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const form = document.getElementById('photoForm');
